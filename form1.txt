@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head> <title>form Page</title> </head>
+
+<body>
+     <head>
+
+     <h2> Signup
+
+     </h2>
+
+     <form action="" method="POST">
+     
+     Firstname:<input type="text" name="Fname" ><br>
+
+     Lastname:<input type="text" name="Lname" ><br>
+
+     Password: <input type="password" name="pin"><br> 
+
+     Gender:<input type="radio" name="Gender" Value="Male">Male
+
+            <input type="radio" name="Gender" Value="Female">Female<br>
+
+     Hobbies: <input type="checkbox" name="Hobbies" Value="reading">reading
+              
+              <input type="checkbox" name="Hobbies" Value="playing">playing<br>
+
+     Age: <input type="number" min="18" max="30" <br>
+
+     DOB: <input type="date" value="Apr/11/2018"><br>
+
+     Email: <input type="email" value="abc@gmail.com"><br>
+
+     Url: <input type="url" value="http://google.co.in"><br>
+
+     Search: <input type="search" value="Google"><BR>
+
+     Country: <input type="text" list="av1" value="None"><br>
+
+         <datalist id="av1">
+         
+         <option value="India">India
+         <option value="USA">USA
+         <option value="France">France
+         </datalist><br>
+
+     Range: <input type="range" min="0" max="20"><br>
+
+     Phone: <input type="number" value="9876543210"><br>
+     
+     Color: <input type="color" value="white"><BR>
+
+     Location: <select name="location"><br>
+       <option value="India">India</option>
+       <option value="USA">USA</option>
+       <option value="France">France</option>
+       </select><br>
+
+     Feedback: <textarea name="feedback" rows="1" cols="100">
+               
+               
+
+     </textarea><br>
+
+     <input type="submit"value="submit"> <input type="reset">
+
+</form>
+
+</body>
+
+</html>
