@@ -1,0 +1,74 @@
+Web Application ---> Client ans server  --> Browser  and web server(tomcat)
+Browser  and web server ---> Http ---> HttpRequest, HttpResponse
+HttpRequest->Get , Post , 7
+
+Get(line,header)--> URL?userid=..........&password=.....
+Post(line,header,body)--> store it the body of request
+
+Three Layers --> PL 
+(front end what we can see) --> BL (What action is taken)--->DL(store and access)
+
+Web Application
+web pages ->PL - Static(HTML5,CSS3) -->Dynamic(HTML5,CSS3,Program)
+Program-->Scripting Lang---> Client 	or 	Server
+			     Java script	Servlet,JSP,ASP,PHP
+			     VB
+
+
+
+src--> JAVA
+Webcontent--> html,css,js,jsp,images
+
+
+
+
+http://localhost:8080/onlineshop/admin/pages/home.html
+
+<a href="welcome.html">Page1</a>
+<a href="/onlineshop/customer/pages/index.html">Page1</a>
+
+
+onlineshop-->html,css,js,images,jsp
+	admin
+		pages
+		  home.html	
+		  welcome.html	
+		css
+		js
+		images
+	customer
+		pages
+		  index.html
+		css
+		js
+		images
+	common
+		pages
+		css
+		js
+		images
+	WEB-INF
+		classes-->class files
+		lib---> jar file
+		web.xml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
